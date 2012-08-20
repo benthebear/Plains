@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Ubuntu Book';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(fonts/ubuntu-book-300.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Ubuntu Book Italic';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(fonts/ubuntu-book-300-italic.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(fonts/ubuntu-normal-400.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Ubuntu Italic';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(fonts/ubuntu-normal-400-italic.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Ubuntu Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url(fonts/ubuntu-medium-500.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Ubuntu Medium Italic';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(fonts/ubuntu-medium-500-italic.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Ubuntu Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(fonts/ubuntu-bold-700.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Ubuntu Bold Italic';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(fonts/ubuntu-bold-700-italic.woff) format('woff');
+}
+
+/* Monospaced Fonts */
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(fonts/ubuntu-mono-400.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Ubuntu Mono Italic';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Ubuntu Mono Italic'), local('UbuntuMono-Italic'), url(fonts/ubuntu-mono-400-italic.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Ubuntu Mono Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'), url(fonts/ubuntu-mono-700.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Ubuntu Mono Bold Italic';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Ubuntu Mono Bold Italic'), local('UbuntuMono-BoldItalic'), url(fonts/ubuntu-mono-700-italic.woff) format('woff');
+}
+
+/* Condensed Font */
+
+@font-face {
+  font-family: 'Ubuntu Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Condensed'), local('UbuntuCondensed-Regular'), url(fonts/ubuntu-condensed-400.woff) format('woff');
+}

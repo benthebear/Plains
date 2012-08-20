@@ -1,0 +1,111 @@
+/*  
+Theme Name: Plains
+Theme URI: http://wordpress.org/
+Description: A very basic Smacss conform, HTML5, Wordpress-Theme.
+Version: 0.1
+Author: Benjamin Birkenhake
+Author URI: http://birkenhake.org
+License: GPL (as inherited by the main Wordpress License)
+
+	Visit me on Github: https://github.com/benthebear
+	For more Information on Smacss, visit http://smacss.com
+	For more Information on HMTL 5, visit http://html5doctor.com
+	For more Information on Wordpress-Themeing, visit http://codex.wordpress.org/
+	For more Information on Wordpress-Licensing, visit http://wordpress.org/about/license/
+	For more Information on GPL, visit http://www.gnu.org/licenses/gpl-2.0
+	
+	This Theme is based on a 20/41 Grid with 18 Collumns,
+	with a total outer widths of 1118 and 1078 inside.
+
+	The Grid-String for Gridfox:
+	20,41,20,41,20,41,20,41,20,41,20,41,20,41,20,41,20,41,20,41,20,41,20,41,20,41,20,41,20,41,20,41,20,41,20,41,20
+
+	Column-Widhts:
+	41, 102, 163, 224, 285, 346, 407, 468, 529, 590, 651, 712, 773, 834, 895, 956, 1017, 1078
+
+	Distances of each Column from the left hand side
+	20, 81, 142, 203, 264, 325, 386, 447, 508, 569, 630, 691, 752, 813, 874, 935, 996, 1057	
+	
+	CAUTION!
+	This Theme is NOT backwards compatible with non-HTML-5 capable Browsers!
+	This Theme has NOT been tested for Cross-Browser-Compatibility!
+	
+	Have fun, and don't be afraid to contact me, if you have questions.
+	
+	
+		"The Plains of the Purple Buffalo"
+		by *shels
+*/
+
+
+/*
+	This File is devided into the main Smacss-Categories:
+	# Base
+	# Laylout
+	# Module
+	# State
+*/
+
+
+@import url(ubuntu.css);
+
+/*  # BASE  */
+html {
+	font-family:Ubuntu;
+	background:lightgray;
+	padding:20px;
+	font-size:120%;
+	line-height:160%;
+}
+
+body {
+	width:1078px;
+	margin:auto;
+	background:white;
+	padding:20px;
+}
+
+img {
+	max-width:529px;
+	max-height:529px;
+}
+
+a {text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Ubuntu';
+	font-weight:normal;
+	
+}
+
+/*  # Layout  */
+
+
+.region {
+	
+}
+
+.region-header {
+	
+}
+
+.region-arena {
+	
+}
+
+.region-sidebar {
+	
+}
+
+.region-marginalia {
+	
+}
+
+.region-footer {
+	
+}
+
+/* # Modules */
